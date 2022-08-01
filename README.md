@@ -1,4 +1,12 @@
-# talking-parrot
+# Papagaio falante
+
+Exemplo simples utilizando Vue JS.
+
+![image](https://user-images.githubusercontent.com/72041841/182192705-a8b4be90-cb01-448b-8586-1d835d8d2836.png)
+
+
+
+
 
 ## Project setup
 ```
@@ -9,16 +17,3 @@ npm install
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
