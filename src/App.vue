@@ -3,11 +3,11 @@
     <h1 v-if="mensagem == ''">Digite algo para o papagaio falante repetir</h1>
     <div v-else>
       <h1  class="mensagem">Papagaio falante disse</h1>
-      <h2>-{{mensagem}}</h2>
+      <h2>{{mensagem}}</h2>
     </div>
     <img src="./assets/parrot.png" >
     <br>
-    <input type="text" placeholder="digite aqui" v-model="mensagem"><br>
+    <input type="text" placeholder="Digite aqui" v-model="mensagem"><br>
   </div>
 </template>
 
@@ -34,25 +34,26 @@ export default {
 }
 h1{
   margin-top:50px;
-   color:#8B3A3A;
+  color:#8f3131;
 }
 h2{
   color: #CD5555;
 }
 input{
-  width:200px;
-  height:15px;
+  width:500px;
+  height:30px;
   margin-top:15px;
-  background-color:#EEC591;
-  border-color: #CD5555;
+  background-color:#f2cdcb;
+  border-color: #d77a7a;
   border: 2.5px solid;
-  color: #CD5555;
-  text-color: red;
+  color: #f19292;
+  font-size:15px;
   text-align :center;
 }
 
+
 img{
-  width:380px;
-  height:240px
+  width:480px;
+  height:300px
 }
 </style>
